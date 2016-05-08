@@ -1,8 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module external.linked.project.id="sphinx:main" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="GRADLE" external.system.module.group="net.i2037" external.system.module.type="sourceSet" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
   <component name="FacetManager">
+    <facet type="jpa" name="JPA">
+      <configuration>
+        <setting name="validation-enabled" value="true" />
+        <setting name="provider-name" value="Hibernate" />
+        <datasource-mapping>
+          <factory-entry name="net.i2037.sphinx" value="ac1d2338-ee9f-4746-b601-e6bdc32e385a" />
+        </datasource-mapping>
+        <deploymentDescriptor name="persistence.xml" url="file://$MODULE_DIR$/../../src/main/resources/META-INF/persistence.xml" />
+      </configuration>
+    </facet>
     <facet type="web" name="Web Gradle : sphinx-1.0-SNAPSHOT.war">
       <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/../../src/main/webapp/WEB-INF/web.xml" />
+        </descriptors>
         <webroots>
           <root url="file://$MODULE_DIR$/../../src/main/webapp" relative="/" />
         </webroots>
@@ -22,7 +35,7 @@
     <orderEntry type="library" name="Gradle: org.glassfish.jersey.media:jersey-media-moxy:2.22.2" level="project" />
     <orderEntry type="library" name="Gradle: io.reactivex:rxjava:1.1.5" level="project" />
     <orderEntry type="library" name="Gradle: org.hibernate:hibernate-entitymanager:5.1.0.Final" level="project" />
-    <orderEntry type="library" name="Gradle: org.xerial:sqlite-jdbc:3.8.11.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.hsqldb:hsqldb:2.3.3" level="project" />
     <orderEntry type="library" name="Gradle: org.glassfish.hk2.external:javax.inject:2.4.0-b34" level="project" />
     <orderEntry type="library" name="Gradle: org.glassfish.jersey.core:jersey-common:2.22.2" level="project" />
     <orderEntry type="library" name="Gradle: org.glassfish.jersey.core:jersey-server:2.22.2" level="project" />

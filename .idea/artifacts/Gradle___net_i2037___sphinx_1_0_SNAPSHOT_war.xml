@@ -47,7 +47,7 @@
           <element id="library" level="project" name="Gradle: org.glassfish.hk2.external:aopalliance-repackaged:2.4.0-b34" />
           <element id="library" level="project" name="Gradle: org.eclipse.persistence:org.eclipse.persistence.asm:2.6.0" />
           <element id="library" level="project" name="Gradle: javax.inject:javax.inject:1" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.xerial/sqlite-jdbc/3.8.11.2/dec208cba8debb0a8b9204b08d8d887d63041f0f/sqlite-jdbc-3.8.11.2.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hsqldb/hsqldb/2.3.3/d12d506194447dffb8a2b05dd2c50b0cdd73d9d1/hsqldb-2.3.3.jar" />
         </element>
       </element>
       <element id="directory" name="META-INF">
