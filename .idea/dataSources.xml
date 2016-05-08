@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="1256932009">
+    <data-source source="LOCAL" name="Sqlite (Xerial) - gradletest.sqllite" uuid="444f70e0-f9c8-48fa-a9a6-ad09f57edd64">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:/Temp/gradletest.sqllite</jdbc-url>
+    </data-source>
+  </component>
+</project>
