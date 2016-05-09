@@ -16,6 +16,7 @@
           <element id="library" level="project" name="Gradle: org.glassfish.jersey.media:jersey-media-moxy:2.22.2" />
           <element id="library" level="project" name="Gradle: io.reactivex:rxjava:1.1.5" />
           <element id="library" level="project" name="Gradle: org.hibernate:hibernate-entitymanager:5.1.0.Final" />
+          <element id="library" level="project" name="Gradle: mysql:mysql-connector-java:5.1.38" />
           <element id="library" level="project" name="Gradle: org.glassfish.hk2.external:javax.inject:2.4.0-b34" />
           <element id="library" level="project" name="Gradle: org.glassfish.jersey.core:jersey-common:2.22.2" />
           <element id="library" level="project" name="Gradle: org.glassfish.jersey.core:jersey-server:2.22.2" />
@@ -47,7 +48,6 @@
           <element id="library" level="project" name="Gradle: org.glassfish.hk2.external:aopalliance-repackaged:2.4.0-b34" />
           <element id="library" level="project" name="Gradle: org.eclipse.persistence:org.eclipse.persistence.asm:2.6.0" />
           <element id="library" level="project" name="Gradle: javax.inject:javax.inject:1" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hsqldb/hsqldb/2.3.3/d12d506194447dffb8a2b05dd2c50b0cdd73d9d1/hsqldb-2.3.3.jar" />
         </element>
       </element>
       <element id="directory" name="META-INF">
